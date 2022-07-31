@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Stopwatch</title>
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <main class="container">
+      <h1>Stopwatch</h1>
+      <h2>Lap Timer</h2>
+      <p class="lap-t">
+        <span id="min">00</span>: <span id="sec">00</span>,
+        <span id="tens">00</span>
+      </p>
+      <div class="controls">
+        <button id="start-btn" class="start">START</button>
+        <button id="laps-btn" class="laps-btn">LAPS</button>
+        <button id="stop-btn" class="stop">STOP</button>
+        <button id="reset-btn" class="reset">RESET</button>
+      </div>
+      <ul id="laps" class="laps-c">
+        <!-- <li>00:00,00</li>
+        <li>00:00,00</li>
+        <li>00:00,00</li>
+        <li>00:00,00</li>
+        <li>00:00,00</li> -->
+      </ul>
+    </main>
+    <script src="/laps.js"></script>
+  </body>
+</html>
